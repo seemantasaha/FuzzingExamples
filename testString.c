@@ -75,7 +75,7 @@ void fuzz(char* s) {
 
 int main(int argc, char *argv[])
 {
-    char *input = argv[0];
+    char *input = argv[1];
     printf("input = %s", input);
     fuzz(input);
 
