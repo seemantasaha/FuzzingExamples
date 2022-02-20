@@ -46,7 +46,7 @@ void fuzz(int i) {
 
 int main(int argc, char *argv[])
 {
-    int input = atoi(argv[0]);
+    int input = atoi(argv[1]);
     printf("input = %d", input);
     fuzz(input);
 
